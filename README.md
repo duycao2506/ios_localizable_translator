@@ -6,7 +6,7 @@
 ```sh
 git clone https://github.com/duycao2506/ios_localizable_translator.git
 ``` 
-- Run 
+- Run this script, because this script will recursively scan for swift files, so you just need to put the top-level folder as an parameter
 ```sh
 python3 ios_localizable_strings.py <your-swift-file-containing-folder> --output <output-name-without-extension> --no-comments --locale-origin <src-lang-code> --locale-target <target-lang-code>
 ```
